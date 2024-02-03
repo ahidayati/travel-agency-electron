@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Trip</title>
+
+    <link href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../../../../src/assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!--Header Content-->
+        <div class="bg-secondary-subtle text-dark text-center mt-2">
+            <h1 class="text-uppercase m-0 py-2"><i class="fa-solid fa-earth-americas"></i> Awesome Travel</h1>
+        </div>
+
+        <!--Main Content-->
+        <div class="container">
+            <div class="d-flex justify-content-end mt-3">
+                <a class="text-capitalize btn btn-outline-secondary m-1" id="ask-show-new-trip-form"><i class="fa-regular fa-compass"></i> add trip</a>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-evenly" id="cardsContainer">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../../controllers/index/index.controller.js"></script>
+</body>
+</html>
